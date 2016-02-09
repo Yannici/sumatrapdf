@@ -745,9 +745,10 @@ bool PrintFile(BaseEngine *engine, WCHAR *printerName, bool displayErrors, const
     if (!HasPermission(Perm_PrinterAccess))
         return false;
 
+	
 #ifndef DISABLE_DOCUMENT_RESTRICTIONS
-    if (engine && !engine->AllowsPrinting())
-        engine = nullptr;
+	/*if (engine && !engine->AllowsPrinting())
+        engine = nullptr;*/
 #endif
     if (!engine) {
         if (displayErrors)

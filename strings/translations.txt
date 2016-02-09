@@ -13438,7 +13438,7 @@ ca:S'ha produït un problema en la impressió.
 cn:打印问题。
 cy:Anhawster argraffu
 cz:Potíže s tiskem
-de:Druckerproblem
+de:Druckproblem
 dk:Udskriftsproblem.
 el:Πρόβλημα εκτύπωσης.
 es:Problema de impresión.
